@@ -41,7 +41,7 @@ Check out the live application here: [https://Fikriansyah88.github.io/simple-tod
 ## 👤 Author
 **Fikriansyah88**
 - GitHub: [@Fikriansyah88](https://github.com/Fikriansyah88)
-- LinkedIn: [Your LinkedIn Profile Link Here]
+- LinkedIn: https://www.linkedin.com/in/muhammad-fikriansyah-39b21a385/
 
 ---
 *Developed with ❤️ as part of my Frontend Development Portfolio.*
