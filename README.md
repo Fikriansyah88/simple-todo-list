@@ -10,6 +10,9 @@ A clean, modern, and responsive To-Do List application built with Vanilla JavaSc
 Check out the live application here: [https://Fikriansyah88.github.io/simple-todo-list/](https://Fikriansyah88.github.io/simple-todo-list/)
 
 ---
+##  📸 Preview
+![Image Alt](https://github.com/Fikriansyah88/simple-todo-list/blob/61f20cc3baf297e1b92e95901923884875c2406d/Screenshot%202026-05-11%20141327.png)
+![Image Alt](https://github.com/Fikriansyah88/simple-todo-list/blob/61f20cc3baf297e1b92e95901923884875c2406d/Screenshot%202026-05-11%20141339.png)
 
 ## ✨ Features
 - **Dark Mode Toggle**: Sleek dark mode for better accessibility and eye comfort.
