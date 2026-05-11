@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do List</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- File CSS Kita -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Bagian Atas -->
+        <header>
+            <h1>MyTasks</h1>
+            <button class="theme-toggle" id="theme-toggle" title="Ganti Tema">
+                <i class="fas fa-moon"></i>
+            </button>
+        </header>
+
+        <!-- Kotak Input Tugas -->
+        <div class="input-group">
+            <input type="text" id="todo-input" placeholder="Apa yang mau dikerjakan hari ini?">
+            <button class="add-btn" id="add-btn">
+                <i class="fas fa-plus"></i> Tambah
+            </button>
+        </div>
+
+        <!-- Bagian Filter dan Counter -->
+        <div class="controls">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="active">Aktif</button>
+                <button class="filter-btn" data-filter="completed">Selesai</button>
+            </div>
+            <div id="task-counter">0 tugas tersisa</div>
+        </div>
+
+        <!-- List Tugas -->
+        <ul id="todo-list">
+
+        </ul>
+
+        <!-- Tombol Hapus Semua yang Selesai -->
+        <div style="text-align: right; margin-top: 15px;">
+            <button id="clear-completed" class="clear-btn">Hapus yang sudah selesai</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
